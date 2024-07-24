@@ -59,5 +59,6 @@ Este aplicativo ainda está em desenvolvimento e pode conter bugs.
 As informações e serviços disponíveis no aplicativo podem ser alterados a qualquer momento.
 
 ## Links úteis
+- Sistema: https://sistemaconfea.streamlit.app/
 - CONFEA: https://www.confea.org.br/
 - MUTUA: https://mutua.com.br/
