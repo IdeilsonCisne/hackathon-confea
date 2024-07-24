@@ -56,4 +56,13 @@ if pagina_profissional == 'Acessar ART':
 st.markdown('<style>footer {position: fixed; bottom: 0; left: 0; width: 100%; background-color: ' + cor_de_fundo + '; text-align: center; padding: 10px; display: flex; justify-content: space-around;}</style>', unsafe_allow_html=True)
 
 # Inserindo as imagens no rodapé
-st.markdown('<footer><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdWEhISBcenXIMjJqA8m6C4jlyhfzObVV9ZbAyl41X3T6bUcJjvV1yjylAbkFlKkDfiQ&usqp=CAU" style="max-height: 50px; vertical-align: middle; margin-right: -800px;"></img><img src="https://www.mutua.com.br/wp-content/uploads/2022/12/logo_mutua.webp" style="max-height: 50px; vertical-align: middle; margin-left: 10px;"></footer>', unsafe_allow_html=True)
+# st.markdown('<footer><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdWEhISBcenXIMjJqA8m6C4jlyhfzObVV9ZbAyl41X3T6bUcJjvV1yjylAbkFlKkDfiQ&usqp=CAU" style="max-height: 50px; vertical-align: middle; margin-right: -800px;"></img><img src="https://www.mutua.com.br/wp-content/uploads/2022/12/logo_mutua.webp" style="max-height: 50px; vertical-align: middle; margin-left: 10px;"></footer>', unsafe_allow_html=True)
+
+st.markdown('''
+<footer>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdWEhISBcenXIMjJqA8m6C4jlyhfzObVV9ZbAyl41X3T6bUcJjvV1yjylAbkFlKkDfiQ&usqp=CAU" 
+    style="max-height: 50px; vertical-align: middle; margin-right: -800px; width: 25%;">
+  <img src="https://www.mutua.com.br/wp-content/uploads/2022/12/logo_mutua.webp" 
+    style="max-height: 50px; vertical-align: middle; margin-left: 10px; width: 25%;">
+</footer>
+''', unsafe_allow_html=True)
